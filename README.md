@@ -58,17 +58,7 @@ Este guia auxilia na instalação das dependências para o funcionamento do perf
   winget search --id Microsoft.PowerShell
   ```
 
-### 1. Instalar Nerd Fonts
-
-Para que os ícones e temas funcionem corretamente, é essencial ter uma "Nerd Font" instalada e configurada no seu terminal (VSCode, Windows Terminal, etc.).
-
-- **Instalação via Oh My Posh (Administrador):**
-  ```powershell
-  oh-my-posh font install meslo
-  ```
-  *Após a instalação, configure seu terminal para usar a fonte `MesloLGS NF`.*
-
-### 2. Instalar Oh My Posh
+### 1. Instalar Oh My Posh
 
 Gerenciador de temas para o prompt de comando.
 
@@ -77,6 +67,17 @@ Gerenciador de temas para o prompt de comando.
   winget install JanDeDobbeleer.OhMyPosh -s winget
   ```
   *Reinicie o terminal após a instalação.*
+
+### 2. Instalar Nerd Fonts
+
+Para que os ícones e temas funcionem corretamente, é essencial ter uma "Nerd Font" instalada e configurada no seu terminal (VSCode, Windows Terminal, etc.).
+
+- **Instalação via Oh My Posh (Administrador):**
+  ```powershell
+  oh-my-posh font install meslo
+  ```
+  *Após a instalação, configure seu terminal para usar a fonte desejada.*
+
 
 ### 3. Instalar Módulos Essenciais do PowerShell
 
@@ -94,7 +95,30 @@ Install-Module DockerCompletion -Scope CurrentUser -Force
 
 # Cores para o comando Get-ChildItem (ls/dir)
 Install-Module Get-ChildItemColor -Scope CurrentUser -Force
+
+# Modulo da Microsoft para gerenciar pacotes
+Install-Module -Name Microsoft.WinGet.Client -Scope CurrentUser -Force
 ```
+
+## Possivel erro
+```
+.: The term '...\Documentos\PowerShell\Modules\Get-ChildItemColor\3.5.2\PSColorHelper.ps1' is not recognized as a name of a cmdlet, function,
+script file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+```
+>Remover o modulo quebrado
+- O caminho indicado no erro, copie até a pasta `Get-ChildItemColor`
+```powershell
+Remove-Item "C:\Users\<USUARIO>\...\Documentos\PowerShell\Modules\Get-ChildItemColor" -Recurse -Force
+```
+> Criar uma nova pasta fora do Onedriver
+```powershell
+New-Item -ItemType Directory -Path "C:\PowerShell\Modules"
+```
+> Adicione ela ao PSModulePath no seu $PROFILE:
+```powershell
+$env:PSModulePath += ";C:\PowerShell\Modules"
+```
+- Reinice o terminal e veja os logs se algum modulo ficou faltando e o reenstale conforme o passo 3.
 
 ---
 
