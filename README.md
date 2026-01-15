@@ -83,42 +83,32 @@ Para que os ícones e temas funcionem corretamente, é essencial ter uma "Nerd F
 
 Execute os comandos abaixo para adicionar funcionalidades ao seu terminal:
 
+>Integração com Git
 ```powershell
-# Integração com Git
 Install-Module posh-git -Scope CurrentUser -Force
+```
 
-# Ícones para arquivos e pastas (ls/dir)
+>Ícones para arquivos e pastas (ls/dir)
+```powershell
 Install-Module Terminal-Icons -Scope CurrentUser -Force
+```
 
-# Autocompletar para comandos Docker
+>Autocompletar para comandos Docker
+```powershell
 Install-Module DockerCompletion -Scope CurrentUser -Force
+```
 
-# Cores para o comando Get-ChildItem (ls/dir)
-Install-Module Get-ChildItemColor -Scope CurrentUser -Force
 
-# Modulo da Microsoft para gerenciar pacotes
+>Modulo da Microsoft para gerenciar pacotes
+```powershell
 Install-Module -Name Microsoft.WinGet.Client -Scope CurrentUser -Force
 ```
 
-## Possivel erro
-```
-.: The term '...\Documentos\PowerShell\Modules\Get-ChildItemColor\3.5.2\PSColorHelper.ps1' is not recognized as a name of a cmdlet, function,
-script file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-```
->Remover o modulo quebrado
-- O caminho indicado no erro, copie até a pasta `Get-ChildItemColor`
+>Cores para o comando Get-ChildItem (ls/dir) <br>
+>Não necessario se tiver usando os outros modulos de icones e cores acima
 ```powershell
-Remove-Item "C:\Users\<USUARIO>\...\Documentos\PowerShell\Modules\Get-ChildItemColor" -Recurse -Force
+Install-Module Get-ChildItemColor -Scope CurrentUser -Force
 ```
-> Criar uma nova pasta fora do Onedriver
-```powershell
-New-Item -ItemType Directory -Path "C:\PowerShell\Modules"
-```
-> Adicione ela ao PSModulePath no seu $PROFILE:
-```powershell
-$env:PSModulePath += ";C:\PowerShell\Modules"
-```
-- Reinice o terminal e veja os logs se algum modulo ficou faltando e o reenstale conforme o passo 3.
 
 ---
 

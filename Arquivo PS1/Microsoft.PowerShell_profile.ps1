@@ -1,7 +1,7 @@
 $MaximumHistoryCount = 2000
 
 # Importação segura: carrega apenas se o módulo estiver instalado
-$modules = @("posh-git", "Get-ChildItemColor", "Terminal-Icons", "DockerCompletion")
+$modules = @("posh-git", "Terminal-Icons", "DockerCompletion")
 foreach ($module in $modules) {
     if (Get-Module -ListAvailable -Name $module) {
         Import-Module $module
