@@ -11,10 +11,9 @@ foreach ($module in $modules) {
 }
 Import-Module PSReadLine
 
-
-
 # Configuração tema
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/json.omp.json" | Invoke-Expression
+$tema = "material.omp.json"
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/$tema" | Invoke-Expression
 
 # Uses tab for autocompletion
 Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
@@ -52,8 +51,7 @@ Set-Alias l lb
 # Aliases Functions
 
 function profile() { code $PROFILE }
-function edh() { code "$HOME\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" }
-function eds() { code "$HOME\AppData\Local\oh-my-posh\spaceship.omp.json" }
+function historico() { code "$HOME\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" }
 
 # Compute file hashes - useful for checking successful downloads
 function md5    { Get-FileHash -Algorithm MD5 $args }
