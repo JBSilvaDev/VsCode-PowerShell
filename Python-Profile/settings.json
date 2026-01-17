@@ -150,6 +150,5 @@
     "editor.fontWeight": "normal",
     "python.analysis.typeCheckingMode": "basic",
     "notebook.output.wordWrap": true,
-    "python.defaultInterpreterPath": "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python314\\python.exe", // ALterar versao do python conforme instalação
     "workbench.colorTheme": "Omni"
   }

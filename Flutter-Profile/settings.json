@@ -137,7 +137,6 @@
   "dart.showInspectorNotificationsForWidgetErrors": false,
   "workbench.iconTheme": "vscode-icons",
   "dart.debugExternalPackageLibraries": false,
-  "dart.flutterSdkPath": "%USERPROFILE%/fvm/versions/3.7.2",
   "dart.debugSdkLibraries": false,
   "vscode-office.openOutline": true,
   "errorLens.excludeBySource": [
