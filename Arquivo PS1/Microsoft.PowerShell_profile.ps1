@@ -1,12 +1,18 @@
 $MaximumHistoryCount = 2000
 
 # Importação segura: carrega apenas se o módulo estiver instalado
-$modules = @("posh-git", "Terminal-Icons", "DockerCompletion")
+$modules = @("posh-git", "Terminal-Icons", "DockerCompletion","Microsoft.WinGet.Client")
 foreach ($module in $modules) {
-    if (Get-Module -ListAvailable -Name $module) {
-        Import-Module $module
+    if (Get-Module -ListAvailable -Name $module) {       
+      Import-Module $module
+        
     } else {
-        Write-Host "Módulo '$module' não instalado (veja README)." -ForegroundColor DarkGray
+        if ($module -eq "Microsoft.WinGet.Client"){
+          Write-Host "PowerToys CommandNotFound module não está instalado." -ForegroundColor DarkGray
+        } else {
+          
+              Write-Host "Módulo '$module' não instalado (veja README)." -ForegroundColor DarkGray
+        }
     }
 }
 Import-Module PSReadLine
@@ -154,15 +160,4 @@ function django-tables(){
   python manage.py makemigrations
   "Executando: python manage.py migrate"
   python manage.py migrate
-}
-
-try {
-  # Esta parte so funcionará com PowerToys instalado e Comando Não Encontrado ativo
-  #f45873b3-b655-43a6-b217-97c00aa0db58 PowerToys CommandNotFound module
-   
-  Import-Module -Name Microsoft.WinGet.CommandNotFound
-  #f45873b3-b655-43a6-b217-97c00aa0db58
-  
-} catch {
-    Write-Host "PowerToys CommandNotFound module não está instalado." -ForegroundColor DarkGray
 }
