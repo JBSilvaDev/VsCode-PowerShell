@@ -9,7 +9,7 @@
         "version": "2.2.4",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.4",
+            "path": "%USERPROFILE%/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.4",
             "scheme": "file"
         },
         "relativeLocation": "streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.4",
@@ -36,7 +36,7 @@
         "version": "0.10.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/codezombiech.gitignore-0.10.0",
+            "path": "%USERPROFILE%/.vscode/extensions/codezombiech.gitignore-0.10.0",
             "scheme": "file"
         },
         "relativeLocation": "codezombiech.gitignore-0.10.0",
@@ -63,7 +63,7 @@
         "version": "1.19.1",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/redhat.vscode-yaml-1.19.1",
+            "path": "%USERPROFILE%/.vscode/extensions/redhat.vscode-yaml-1.19.1",
             "scheme": "file"
         },
         "relativeLocation": "redhat.vscode-yaml-1.19.1",
@@ -90,7 +90,7 @@
         "version": "1.0.12",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/rocketseat.theme-omni-1.0.12",
+            "path": "%USERPROFILE%/.vscode/extensions/rocketseat.theme-omni-1.0.12",
             "scheme": "file"
         },
         "relativeLocation": "rocketseat.theme-omni-1.0.12",
@@ -117,7 +117,7 @@
         "version": "1.1.1",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/goopware.raythis-1.1.1",
+            "path": "%USERPROFILE%/.vscode/extensions/goopware.raythis-1.1.1",
             "scheme": "file"
         },
         "relativeLocation": "goopware.raythis-1.1.1",
@@ -144,7 +144,7 @@
         "version": "1.2.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/plibither8.remove-comments-1.2.2",
+            "path": "%USERPROFILE%/.vscode/extensions/plibither8.remove-comments-1.2.2",
             "scheme": "file"
         },
         "relativeLocation": "plibither8.remove-comments-1.2.2",
@@ -171,7 +171,7 @@
         "version": "2.1.10",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10",
             "scheme": "file"
         },
         "relativeLocation": "ms-edgedevtools.vscode-edge-devtools-2.1.10",
@@ -198,7 +198,7 @@
         "version": "0.1.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/meezilla.json-0.1.2",
+            "path": "%USERPROFILE%/.vscode/extensions/meezilla.json-0.1.2",
             "scheme": "file"
         },
         "relativeLocation": "meezilla.json-0.1.2",
@@ -225,7 +225,7 @@
         "version": "0.2.5",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
+            "path": "%USERPROFILE%/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
             "scheme": "file"
         },
         "relativeLocation": "george-alisson.html-preview-vscode-0.2.5",
@@ -252,7 +252,7 @@
         "version": "1.0.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
+            "path": "%USERPROFILE%/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
             "scheme": "file"
         },
         "relativeLocation": "tal7aouy.rainbow-bracket-1.0.2",
@@ -279,7 +279,7 @@
         "version": "3.0.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
+            "path": "%USERPROFILE%/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
             "scheme": "file"
         },
         "relativeLocation": "hoovercj.vscode-power-mode-3.0.2",
@@ -306,7 +306,7 @@
         "version": "4.4.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/streetsidesoftware.code-spell-checker-4.4.0",
+            "path": "%USERPROFILE%/.vscode/extensions/streetsidesoftware.code-spell-checker-4.4.0",
             "scheme": "file"
         },
         "relativeLocation": "streetsidesoftware.code-spell-checker-4.4.0",
@@ -333,7 +333,7 @@
         "version": "0.32.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.32.2",
+            "path": "%USERPROFILE%/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.32.2",
             "scheme": "file"
         },
         "relativeLocation": "kisstkondoros.vscode-gutter-preview-0.32.2",
@@ -360,7 +360,7 @@
         "version": "4.2.64",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/grapecity.gc-excelviewer-4.2.64",
+            "path": "%USERPROFILE%/.vscode/extensions/grapecity.gc-excelviewer-4.2.64",
             "scheme": "file"
         },
         "relativeLocation": "grapecity.gc-excelviewer-4.2.64",
@@ -387,7 +387,7 @@
         "version": "1.1.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2",
             "scheme": "file"
         },
         "relativeLocation": "ms-toolsai.jupyter-keymap-1.1.2",
@@ -414,7 +414,7 @@
         "version": "0.1.6",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/mohd-akram.vscode-html-format-0.1.6",
+            "path": "%USERPROFILE%/.vscode/extensions/mohd-akram.vscode-html-format-0.1.6",
             "scheme": "file"
         },
         "relativeLocation": "mohd-akram.vscode-html-format-0.1.6",
@@ -441,7 +441,7 @@
         "version": "1.0.6",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/wscats.html-snippets-1.0.6",
+            "path": "%USERPROFILE%/.vscode/extensions/wscats.html-snippets-1.0.6",
             "scheme": "file"
         },
         "relativeLocation": "wscats.html-snippets-1.0.6",
@@ -468,7 +468,7 @@
         "version": "0.0.3",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/threatcon.vba-formatter-0.0.3",
+            "path": "%USERPROFILE%/.vscode/extensions/threatcon.vba-formatter-0.0.3",
             "scheme": "file"
         },
         "relativeLocation": "threatcon.vba-formatter-0.0.3",
@@ -495,7 +495,7 @@
         "version": "0.1.6",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6",
             "scheme": "file"
         },
         "relativeLocation": "ms-toolsai.vscode-jupyter-slideshow-0.1.6",
@@ -522,7 +522,7 @@
         "version": "1.0.5959",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5959",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5959",
             "scheme": "file"
         },
         "relativeLocation": "ms-vsliveshare.vsliveshare-1.0.5959",
@@ -549,7 +549,7 @@
         "version": "0.29.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/redhat.vscode-xml-0.29.0-win32-x64",
+            "path": "%USERPROFILE%/.vscode/extensions/redhat.vscode-xml-0.29.0-win32-x64",
             "scheme": "file"
         },
         "relativeLocation": "redhat.vscode-xml-0.29.0-win32-x64",
@@ -576,7 +576,7 @@
         "version": "0.1.9",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9",
             "scheme": "file"
         },
         "relativeLocation": "ms-toolsai.vscode-jupyter-cell-tags-0.1.9",
@@ -603,7 +603,7 @@
         "version": "0.1.62",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/powerquery.vscode-powerquery-0.1.62",
+            "path": "%USERPROFILE%/.vscode/extensions/powerquery.vscode-powerquery-0.1.62",
             "scheme": "file"
         },
         "relativeLocation": "powerquery.vscode-powerquery-0.1.62",
@@ -630,7 +630,7 @@
         "version": "0.1.10",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10",
+            "path": "%USERPROFILE%/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10",
             "scheme": "file"
         },
         "relativeLocation": "formulahendry.auto-rename-tag-0.1.10",
@@ -657,7 +657,7 @@
         "version": "0.6.3",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/powerquery.vscode-powerquery-sdk-0.6.3-win32-x64",
+            "path": "%USERPROFILE%/.vscode/extensions/powerquery.vscode-powerquery-sdk-0.6.3-win32-x64",
             "scheme": "file"
         },
         "relativeLocation": "powerquery.vscode-powerquery-sdk-0.6.3-win32-x64",
@@ -684,7 +684,7 @@
         "version": "3.23.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/mechatroner.rainbow-csv-3.23.0",
+            "path": "%USERPROFILE%/.vscode/extensions/mechatroner.rainbow-csv-3.23.0",
             "scheme": "file"
         },
         "relativeLocation": "mechatroner.rainbow-csv-3.23.0",
@@ -711,7 +711,7 @@
         "version": "0.8.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/daxaholic.vscode-edifact-0.8.0",
+            "path": "%USERPROFILE%/.vscode/extensions/daxaholic.vscode-edifact-0.8.0",
             "scheme": "file"
         },
         "relativeLocation": "daxaholic.vscode-edifact-0.8.0",
@@ -738,7 +738,7 @@
         "version": "0.17.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/tyriar.luna-paint-0.17.0",
+            "path": "%USERPROFILE%/.vscode/extensions/tyriar.luna-paint-0.17.0",
             "scheme": "file"
         },
         "relativeLocation": "tyriar.luna-paint-0.17.0",
@@ -765,7 +765,7 @@
         "version": "1.2.1",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/serpen.vbsvscode-1.2.1",
+            "path": "%USERPROFILE%/.vscode/extensions/serpen.vbsvscode-1.2.1",
             "scheme": "file"
         },
         "relativeLocation": "serpen.vbsvscode-1.2.1",
@@ -792,7 +792,7 @@
         "version": "1.2.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/tomoki1207.pdf-1.2.2",
+            "path": "%USERPROFILE%/.vscode/extensions/tomoki1207.pdf-1.2.2",
             "scheme": "file"
         },
         "relativeLocation": "tomoki1207.pdf-1.2.2",
@@ -819,7 +819,7 @@
         "version": "1.6.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/inferrinizzard.prettier-sql-vscode-1.6.0",
+            "path": "%USERPROFILE%/.vscode/extensions/inferrinizzard.prettier-sql-vscode-1.6.0",
             "scheme": "file"
         },
         "relativeLocation": "inferrinizzard.prettier-sql-vscode-1.6.0",
@@ -846,7 +846,7 @@
         "version": "1.15.13521015",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-python.vscode-python-envs-1.15.13521015-win32-x64",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-python.vscode-python-envs-1.15.13521015-win32-x64",
             "scheme": "file"
         },
         "relativeLocation": "ms-python.vscode-python-envs-1.15.13521015-win32-x64",
@@ -873,7 +873,7 @@
         "version": "1.18.4",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/github.codespaces-1.18.4",
+            "path": "%USERPROFILE%/.vscode/extensions/github.codespaces-1.18.4",
             "scheme": "file"
         },
         "relativeLocation": "github.codespaces-1.18.4",
@@ -900,7 +900,7 @@
         "version": "3.5.4",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/cweijan.vscode-office-3.5.4",
+            "path": "%USERPROFILE%/.vscode/extensions/cweijan.vscode-office-3.5.4",
             "scheme": "file"
         },
         "relativeLocation": "cweijan.vscode-office-3.5.4",
@@ -927,7 +927,7 @@
         "version": "1.3.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-toolsai.jupyter-renderers-1.3.0",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-toolsai.jupyter-renderers-1.3.0",
             "scheme": "file"
         },
         "relativeLocation": "ms-toolsai.jupyter-renderers-1.3.0",
@@ -954,7 +954,7 @@
         "version": "2025.1.13251007",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-python.isort-2025.1.13251007",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-python.isort-2025.1.13251007",
             "scheme": "file"
         },
         "relativeLocation": "ms-python.isort-2025.1.13251007",
@@ -981,7 +981,7 @@
         "version": "2025.9.1",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-win32-x64",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-win32-x64",
             "scheme": "file"
         },
         "relativeLocation": "ms-toolsai.jupyter-2025.9.1-win32-x64",
@@ -1008,7 +1008,7 @@
         "version": "12.15.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/vscode-icons-team.vscode-icons-12.15.0",
+            "path": "%USERPROFILE%/.vscode/extensions/vscode-icons-team.vscode-icons-12.15.0",
             "scheme": "file"
         },
         "relativeLocation": "vscode-icons-team.vscode-icons-12.15.0",
@@ -1035,7 +1035,7 @@
         "version": "2025.19.2025121701",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-python.debugpy-2025.19.2025121701-win32-x64",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-python.debugpy-2025.19.2025121701-win32-x64",
             "scheme": "file"
         },
         "relativeLocation": "ms-python.debugpy-2025.19.2025121701-win32-x64",
@@ -1062,7 +1062,7 @@
         "version": "2025.2.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-python.pylint-2025.2.0",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-python.pylint-2025.2.0",
             "scheme": "file"
         },
         "relativeLocation": "ms-python.pylint-2025.2.0",
@@ -1089,7 +1089,7 @@
         "version": "2.5.1",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/dotjoshjohnson.xml-2.5.1",
+            "path": "%USERPROFILE%/.vscode/extensions/dotjoshjohnson.xml-2.5.1",
             "scheme": "file"
         },
         "relativeLocation": "dotjoshjohnson.xml-2.5.1",
@@ -1116,7 +1116,7 @@
         "version": "2025.4.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-vscode.powershell-2025.4.0",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-vscode.powershell-2025.4.0",
             "scheme": "file"
         },
         "relativeLocation": "ms-vscode.powershell-2025.4.0",
@@ -1143,7 +1143,7 @@
         "version": "1.4.4",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/adpyke.vscode-sql-formatter-1.4.4",
+            "path": "%USERPROFILE%/.vscode/extensions/adpyke.vscode-sql-formatter-1.4.4",
             "scheme": "file"
         },
         "relativeLocation": "adpyke.vscode-sql-formatter-1.4.4",
@@ -1170,7 +1170,7 @@
         "version": "2025.20.1",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-python.python-2025.20.1-win32-x64",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-python.python-2025.20.1-win32-x64",
             "scheme": "file"
         },
         "relativeLocation": "ms-python.python-2025.20.1-win32-x64",
@@ -1197,7 +1197,7 @@
         "version": "1.2.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/jithurjacob.nbpreviewer-1.2.2",
+            "path": "%USERPROFILE%/.vscode/extensions/jithurjacob.nbpreviewer-1.2.2",
             "scheme": "file"
         },
         "relativeLocation": "jithurjacob.nbpreviewer-1.2.2",
@@ -1224,7 +1224,7 @@
         "version": "2.64.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/google.geminicodeassist-2.64.0",
+            "path": "%USERPROFILE%/.vscode/extensions/google.geminicodeassist-2.64.0",
             "scheme": "file"
         },
         "relativeLocation": "google.geminicodeassist-2.64.0",
@@ -1251,7 +1251,7 @@
         "version": "2025.10.100",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-python.vscode-pylance-2025.10.100",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-python.vscode-pylance-2025.10.100",
             "scheme": "file"
         },
         "relativeLocation": "ms-python.vscode-pylance-2025.10.100",
@@ -1278,7 +1278,7 @@
         "version": "2.38.6",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/rangav.vscode-thunder-client-2.38.6",
+            "path": "%USERPROFILE%/.vscode/extensions/rangav.vscode-thunder-client-2.38.6",
             "scheme": "file"
         },
         "relativeLocation": "rangav.vscode-thunder-client-2.38.6",
@@ -1300,4 +1300,5 @@
             "preRelease": false
         }
     }
+
 ]
