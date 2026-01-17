@@ -1,5 +1,6 @@
 // Este arquivo esta em C:\Users\<USUARIO>\AppData\Roaming\Code\User\profiles
-// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
+// Default
+
 {
     "files.autoSave": "afterDelay",
     "[python]": {

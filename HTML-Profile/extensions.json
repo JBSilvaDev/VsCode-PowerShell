@@ -1,5 +1,5 @@
 // Este arquivo esta em C:\Users\<USUARIO>\.vscode\extensions
-// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
+
 [
     {
         "identifier": {
@@ -9,7 +9,7 @@
         "version": "1.0.12",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/rocketseat.theme-omni-1.0.12",
+            "path": "%USERPROFILE%/.vscode/extensions/rocketseat.theme-omni-1.0.12",
             "scheme": "file"
         },
         "relativeLocation": "rocketseat.theme-omni-1.0.12",
@@ -36,7 +36,7 @@
         "version": "0.1.10",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10",
+            "path": "%USERPROFILE%/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10",
             "scheme": "file"
         },
         "relativeLocation": "formulahendry.auto-rename-tag-0.1.10",
@@ -63,7 +63,7 @@
         "version": "0.10.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/codezombiech.gitignore-0.10.0",
+            "path": "%USERPROFILE%/.vscode/extensions/codezombiech.gitignore-0.10.0",
             "scheme": "file"
         },
         "relativeLocation": "codezombiech.gitignore-0.10.0",
@@ -90,7 +90,7 @@
         "version": "1.1.1",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/goopware.raythis-1.1.1",
+            "path": "%USERPROFILE%/.vscode/extensions/goopware.raythis-1.1.1",
             "scheme": "file"
         },
         "relativeLocation": "goopware.raythis-1.1.1",
@@ -117,7 +117,7 @@
         "version": "4.2.64",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/grapecity.gc-excelviewer-4.2.64",
+            "path": "%USERPROFILE%/.vscode/extensions/grapecity.gc-excelviewer-4.2.64",
             "scheme": "file"
         },
         "relativeLocation": "grapecity.gc-excelviewer-4.2.64",
@@ -144,7 +144,7 @@
         "version": "2.1.10",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10",
             "scheme": "file"
         },
         "relativeLocation": "ms-edgedevtools.vscode-edge-devtools-2.1.10",
@@ -171,7 +171,7 @@
         "version": "1.0.6",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/wscats.html-snippets-1.0.6",
+            "path": "%USERPROFILE%/.vscode/extensions/wscats.html-snippets-1.0.6",
             "scheme": "file"
         },
         "relativeLocation": "wscats.html-snippets-1.0.6",
@@ -198,7 +198,7 @@
         "version": "0.1.6",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/mohd-akram.vscode-html-format-0.1.6",
+            "path": "%USERPROFILE%/.vscode/extensions/mohd-akram.vscode-html-format-0.1.6",
             "scheme": "file"
         },
         "relativeLocation": "mohd-akram.vscode-html-format-0.1.6",
@@ -225,7 +225,7 @@
         "version": "0.32.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.32.2",
+            "path": "%USERPROFILE%/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.32.2",
             "scheme": "file"
         },
         "relativeLocation": "kisstkondoros.vscode-gutter-preview-0.32.2",
@@ -252,7 +252,7 @@
         "version": "1.2.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/plibither8.remove-comments-1.2.2",
+            "path": "%USERPROFILE%/.vscode/extensions/plibither8.remove-comments-1.2.2",
             "scheme": "file"
         },
         "relativeLocation": "plibither8.remove-comments-1.2.2",
@@ -279,7 +279,7 @@
         "version": "5.7.9",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ritwickdey.liveserver-5.7.9",
+            "path": "%USERPROFILE%/.vscode/extensions/ritwickdey.liveserver-5.7.9",
             "scheme": "file"
         },
         "relativeLocation": "ritwickdey.liveserver-5.7.9",
@@ -306,7 +306,7 @@
         "version": "3.23.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/mechatroner.rainbow-csv-3.23.0",
+            "path": "%USERPROFILE%/.vscode/extensions/mechatroner.rainbow-csv-3.23.0",
             "scheme": "file"
         },
         "relativeLocation": "mechatroner.rainbow-csv-3.23.0",
@@ -333,7 +333,7 @@
         "version": "1.48.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/codeium.codeium-1.48.2",
+            "path": "%USERPROFILE%/.vscode/extensions/codeium.codeium-1.48.2",
             "scheme": "file"
         },
         "relativeLocation": "codeium.codeium-1.48.2",
@@ -360,7 +360,7 @@
         "version": "1.0.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
+            "path": "%USERPROFILE%/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
             "scheme": "file"
         },
         "relativeLocation": "tal7aouy.rainbow-bracket-1.0.2",
@@ -387,7 +387,7 @@
         "version": "0.2.5",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
+            "path": "%USERPROFILE%/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
             "scheme": "file"
         },
         "relativeLocation": "george-alisson.html-preview-vscode-0.2.5",
@@ -414,7 +414,7 @@
         "version": "3.0.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
+            "path": "%USERPROFILE%/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
             "scheme": "file"
         },
         "relativeLocation": "hoovercj.vscode-power-mode-3.0.2",
@@ -441,7 +441,7 @@
         "version": "1.0.5959",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5959",
+            "path": "%USERPROFILE%/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5959",
             "scheme": "file"
         },
         "relativeLocation": "ms-vsliveshare.vsliveshare-1.0.5959",
@@ -468,7 +468,7 @@
         "version": "2.0.13",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/ecmel.vscode-html-css-2.0.13",
+            "path": "%USERPROFILE%/.vscode/extensions/ecmel.vscode-html-css-2.0.13",
             "scheme": "file"
         },
         "relativeLocation": "ecmel.vscode-html-css-2.0.13",
@@ -495,7 +495,7 @@
         "version": "2.8.3",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/simonsiefke.svg-preview-2.8.3",
+            "path": "%USERPROFILE%/.vscode/extensions/simonsiefke.svg-preview-2.8.3",
             "scheme": "file"
         },
         "relativeLocation": "simonsiefke.svg-preview-2.8.3",
@@ -522,7 +522,7 @@
         "version": "1.2.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/tomoki1207.pdf-1.2.2",
+            "path": "%USERPROFILE%/.vscode/extensions/tomoki1207.pdf-1.2.2",
             "scheme": "file"
         },
         "relativeLocation": "tomoki1207.pdf-1.2.2",
@@ -549,7 +549,7 @@
         "version": "0.17.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/tyriar.luna-paint-0.17.0",
+            "path": "%USERPROFILE%/.vscode/extensions/tyriar.luna-paint-0.17.0",
             "scheme": "file"
         },
         "relativeLocation": "tyriar.luna-paint-0.17.0",
@@ -576,7 +576,7 @@
         "version": "11.0.2",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/esbenp.prettier-vscode-11.0.2",
+            "path": "%USERPROFILE%/.vscode/extensions/esbenp.prettier-vscode-11.0.2",
             "scheme": "file"
         },
         "relativeLocation": "esbenp.prettier-vscode-11.0.2",
@@ -603,7 +603,7 @@
         "version": "3.5.4",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/cweijan.vscode-office-3.5.4",
+            "path": "%USERPROFILE%/.vscode/extensions/cweijan.vscode-office-3.5.4",
             "scheme": "file"
         },
         "relativeLocation": "cweijan.vscode-office-3.5.4",
@@ -630,7 +630,7 @@
         "version": "1.5.4",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/jock.svg-1.5.4",
+            "path": "%USERPROFILE%/.vscode/extensions/jock.svg-1.5.4",
             "scheme": "file"
         },
         "relativeLocation": "jock.svg-1.5.4",
@@ -657,7 +657,7 @@
         "version": "12.15.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/vscode-icons-team.vscode-icons-12.15.0",
+            "path": "%USERPROFILE%/.vscode/extensions/vscode-icons-team.vscode-icons-12.15.0",
             "scheme": "file"
         },
         "relativeLocation": "vscode-icons-team.vscode-icons-12.15.0",
@@ -684,7 +684,7 @@
         "version": "1.20.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/zignd.html-css-class-completion-1.20.0",
+            "path": "%USERPROFILE%/.vscode/extensions/zignd.html-css-class-completion-1.20.0",
             "scheme": "file"
         },
         "relativeLocation": "zignd.html-css-class-completion-1.20.0",
@@ -711,7 +711,7 @@
         "version": "2.64.0",
         "location": {
             "$mid": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/google.geminicodeassist-2.64.0",
+            "path": "%USERPROFILE%/.vscode/extensions/google.geminicodeassist-2.64.0",
             "scheme": "file"
         },
         "relativeLocation": "google.geminicodeassist-2.64.0",
@@ -740,9 +740,9 @@
         "version": "2.38.6",
         "location": {
             "$mid": 1,
-            "fsPath": "c:\\Users\\<USUARIO>\\.vscode\\extensions\\rangav.vscode-thunder-client-2.38.6",
+            "fsPath": "%USERPROFILE%\\.vscode\\extensions\\rangav.vscode-thunder-client-2.38.6",
             "_sep": 1,
-            "path": "/c:/Users/<USUARIO>/.vscode/extensions/rangav.vscode-thunder-client-2.38.6",
+            "path": "%USERPROFILE%/.vscode/extensions/rangav.vscode-thunder-client-2.38.6",
             "scheme": "file"
         },
         "relativeLocation": "rangav.vscode-thunder-client-2.38.6",

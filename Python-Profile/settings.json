@@ -1,5 +1,6 @@
 // Este arquivo esta em C:\Users\<USUARIO>\AppData\Roaming\Code\User\profiles
-// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
+// Python
+
 {
     // PowerMode
     "powermode.enabled": true,
@@ -149,6 +150,6 @@
     "editor.fontWeight": "normal",
     "python.analysis.typeCheckingMode": "basic",
     "notebook.output.wordWrap": true,
-    "python.defaultInterpreterPath": "c:\\Users\\<USUARIO>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "python.defaultInterpreterPath": "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python314\\python.exe", // ALterar versao do python conforme instalação
     "workbench.colorTheme": "Omni"
   }

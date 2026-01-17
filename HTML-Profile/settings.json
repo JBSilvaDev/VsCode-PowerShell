@@ -1,5 +1,6 @@
 // Este arquivo esta em C:\Users\<USUARIO>\.vscode\extensions
-// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
+// HTML
+
 {
     "files.autoSave": "afterDelay",
     "[html]": {
@@ -97,5 +98,5 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
     "remoteHub.commitDirectlyWarning": "off",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "vscode-icons"
 }

@@ -1,5 +1,5 @@
 // Este arquivo esta em C:\Users\<USUARIO>\AppData\Roaming\Code\User\profiles
-// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
+// Flutter
 {
 
   "files.exclude": {
@@ -137,7 +137,7 @@
   "dart.showInspectorNotificationsForWidgetErrors": false,
   "workbench.iconTheme": "vscode-icons",
   "dart.debugExternalPackageLibraries": false,
-  "dart.flutterSdkPath": "/Users/<USUARIO>/fvm/versions/3.7.2",
+  "dart.flutterSdkPath": "%USERPROFILE%/fvm/versions/3.7.2",
   "dart.debugSdkLibraries": false,
   "vscode-office.openOutline": true,
   "errorLens.excludeBySource": [

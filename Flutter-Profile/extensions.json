@@ -1,5 +1,5 @@
 // Este arquivo esta em C:\Users\<USUARIO>\AppData\Roaming\Code\User\profiles
-// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
+
 [
   {
     "identifier": {
@@ -9,7 +9,7 @@
     "version": "1.1.1",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/xr0master.webstorm-intellij-darcula-theme-1.1.1",
+      "path": "%USERPROFILE%/.vscode/extensions/xr0master.webstorm-intellij-darcula-theme-1.1.1",
       "scheme": "file"
     },
     "relativeLocation": "xr0master.webstorm-intellij-darcula-theme-1.1.1",
@@ -36,7 +36,7 @@
     "version": "1.0.12",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/rocketseat.theme-omni-1.0.12",
+      "path": "%USERPROFILE%/.vscode/extensions/rocketseat.theme-omni-1.0.12",
       "scheme": "file"
     },
     "relativeLocation": "rocketseat.theme-omni-1.0.12",
@@ -63,7 +63,7 @@
     "version": "4.0.1",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/nash.awesome-flutter-snippets-4.0.1",
+      "path": "%USERPROFILE%/.vscode/extensions/nash.awesome-flutter-snippets-4.0.1",
       "scheme": "file"
     },
     "relativeLocation": "nash.awesome-flutter-snippets-4.0.1",
@@ -90,7 +90,7 @@
     "version": "1.1.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/everettjf.pubspec-dependency-search-1.1.0",
+      "path": "%USERPROFILE%/.vscode/extensions/everettjf.pubspec-dependency-search-1.1.0",
       "scheme": "file"
     },
     "relativeLocation": "everettjf.pubspec-dependency-search-1.1.0",
@@ -117,7 +117,7 @@
     "version": "0.10.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/codezombiech.gitignore-0.10.0",
+      "path": "%USERPROFILE%/.vscode/extensions/codezombiech.gitignore-0.10.0",
       "scheme": "file"
     },
     "relativeLocation": "codezombiech.gitignore-0.10.0",
@@ -144,7 +144,7 @@
     "version": "0.1.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/meezilla.json-0.1.2",
+      "path": "%USERPROFILE%/.vscode/extensions/meezilla.json-0.1.2",
       "scheme": "file"
     },
     "relativeLocation": "meezilla.json-0.1.2",
@@ -171,7 +171,7 @@
     "version": "1.2.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/plibither8.remove-comments-1.2.2",
+      "path": "%USERPROFILE%/.vscode/extensions/plibither8.remove-comments-1.2.2",
       "scheme": "file"
     },
     "relativeLocation": "plibither8.remove-comments-1.2.2",
@@ -198,7 +198,7 @@
     "version": "0.32.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.32.2",
+      "path": "%USERPROFILE%/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.32.2",
       "scheme": "file"
     },
     "relativeLocation": "kisstkondoros.vscode-gutter-preview-0.32.2",
@@ -225,7 +225,7 @@
     "version": "3.26.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/usernamehw.errorlens-3.26.0",
+      "path": "%USERPROFILE%/.vscode/extensions/usernamehw.errorlens-3.26.0",
       "scheme": "file"
     },
     "relativeLocation": "usernamehw.errorlens-3.26.0",
@@ -252,7 +252,7 @@
     "version": "1.1.1",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/goopware.raythis-1.1.1",
+      "path": "%USERPROFILE%/.vscode/extensions/goopware.raythis-1.1.1",
       "scheme": "file"
     },
     "relativeLocation": "goopware.raythis-1.1.1",
@@ -279,7 +279,7 @@
     "version": "0.40.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-vscode.azure-repos-0.40.0",
+      "path": "%USERPROFILE%/.vscode/extensions/ms-vscode.azure-repos-0.40.0",
       "scheme": "file"
     },
     "relativeLocation": "ms-vscode.azure-repos-0.40.0",
@@ -306,7 +306,7 @@
     "version": "0.64.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/github.remotehub-0.64.0",
+      "path": "%USERPROFILE%/.vscode/extensions/github.remotehub-0.64.0",
       "scheme": "file"
     },
     "relativeLocation": "github.remotehub-0.64.0",
@@ -333,7 +333,7 @@
     "version": "1.22.4",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/pflannery.vscode-versionlens-1.22.4",
+      "path": "%USERPROFILE%/.vscode/extensions/pflannery.vscode-versionlens-1.22.4",
       "scheme": "file"
     },
     "relativeLocation": "pflannery.vscode-versionlens-1.22.4",
@@ -360,7 +360,7 @@
     "version": "1.19.1",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/redhat.vscode-yaml-1.19.1",
+      "path": "%USERPROFILE%/.vscode/extensions/redhat.vscode-yaml-1.19.1",
       "scheme": "file"
     },
     "relativeLocation": "redhat.vscode-yaml-1.19.1",
@@ -387,7 +387,7 @@
     "version": "2.2.4",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.4",
+      "path": "%USERPROFILE%/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.4",
       "scheme": "file"
     },
     "relativeLocation": "streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.4",
@@ -414,7 +414,7 @@
     "version": "3.6.3",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/yzhang.markdown-all-in-one-3.6.3",
+      "path": "%USERPROFILE%/.vscode/extensions/yzhang.markdown-all-in-one-3.6.3",
       "scheme": "file"
     },
     "relativeLocation": "yzhang.markdown-all-in-one-3.6.3",
@@ -441,7 +441,7 @@
     "version": "0.42.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-vscode.remote-repositories-0.42.0",
+      "path": "%USERPROFILE%/.vscode/extensions/ms-vscode.remote-repositories-0.42.0",
       "scheme": "file"
     },
     "relativeLocation": "ms-vscode.remote-repositories-0.42.0",
@@ -468,7 +468,7 @@
     "version": "2.1.10",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10",
+      "path": "%USERPROFILE%/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10",
       "scheme": "file"
     },
     "relativeLocation": "ms-edgedevtools.vscode-edge-devtools-2.1.10",
@@ -495,7 +495,7 @@
     "version": "14.0.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/alefragnani.bookmarks-14.0.0",
+      "path": "%USERPROFILE%/.vscode/extensions/alefragnani.bookmarks-14.0.0",
       "scheme": "file"
     },
     "relativeLocation": "alefragnani.bookmarks-14.0.0",
@@ -522,7 +522,7 @@
     "version": "3.0.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
+      "path": "%USERPROFILE%/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
       "scheme": "file"
     },
     "relativeLocation": "hoovercj.vscode-power-mode-3.0.2",
@@ -549,7 +549,7 @@
     "version": "0.17.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/tyriar.luna-paint-0.17.0",
+      "path": "%USERPROFILE%/.vscode/extensions/tyriar.luna-paint-0.17.0",
       "scheme": "file"
     },
     "relativeLocation": "tyriar.luna-paint-0.17.0",
@@ -576,7 +576,7 @@
     "version": "25.12.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/qwtel.sqlite-viewer-25.12.2-win32-x64",
+      "path": "%USERPROFILE%/.vscode/extensions/qwtel.sqlite-viewer-25.12.2-win32-x64",
       "scheme": "file"
     },
     "relativeLocation": "qwtel.sqlite-viewer-25.12.2-win32-x64",
@@ -603,7 +603,7 @@
     "version": "4.2.64",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/grapecity.gc-excelviewer-4.2.64",
+      "path": "%USERPROFILE%/.vscode/extensions/grapecity.gc-excelviewer-4.2.64",
       "scheme": "file"
     },
     "relativeLocation": "grapecity.gc-excelviewer-4.2.64",
@@ -630,7 +630,7 @@
     "version": "4.4.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/streetsidesoftware.code-spell-checker-4.4.0",
+      "path": "%USERPROFILE%/.vscode/extensions/streetsidesoftware.code-spell-checker-4.4.0",
       "scheme": "file"
     },
     "relativeLocation": "streetsidesoftware.code-spell-checker-4.4.0",
@@ -657,7 +657,7 @@
     "version": "1.1.12",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/flutterbricksproductions.flutterbricks-1.1.12",
+      "path": "%USERPROFILE%/.vscode/extensions/flutterbricksproductions.flutterbricks-1.1.12",
       "scheme": "file"
     },
     "relativeLocation": "flutterbricksproductions.flutterbricks-1.1.12",
@@ -684,7 +684,7 @@
     "version": "1.2.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/tomoki1207.pdf-1.2.2",
+      "path": "%USERPROFILE%/.vscode/extensions/tomoki1207.pdf-1.2.2",
       "scheme": "file"
     },
     "relativeLocation": "tomoki1207.pdf-1.2.2",
@@ -711,7 +711,7 @@
     "version": "2.3.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/jeroen-meijer.pubspec-assist-2.3.2",
+      "path": "%USERPROFILE%/.vscode/extensions/jeroen-meijer.pubspec-assist-2.3.2",
       "scheme": "file"
     },
     "relativeLocation": "jeroen-meijer.pubspec-assist-2.3.2",
@@ -738,7 +738,7 @@
     "version": "1.0.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
+      "path": "%USERPROFILE%/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
       "scheme": "file"
     },
     "relativeLocation": "tal7aouy.rainbow-bracket-1.0.2",
@@ -765,7 +765,7 @@
     "version": "1.0.5959",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5959",
+      "path": "%USERPROFILE%/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5959",
       "scheme": "file"
     },
     "relativeLocation": "ms-vsliveshare.vsliveshare-1.0.5959",
@@ -792,7 +792,7 @@
     "version": "1.0.211",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/yy0931.vscode-sqlite3-editor-1.0.211",
+      "path": "%USERPROFILE%/.vscode/extensions/yy0931.vscode-sqlite3-editor-1.0.211",
       "scheme": "file"
     },
     "relativeLocation": "yy0931.vscode-sqlite3-editor-1.0.211",
@@ -819,7 +819,7 @@
     "version": "0.2.5",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
+      "path": "%USERPROFILE%/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
       "scheme": "file"
     },
     "relativeLocation": "george-alisson.html-preview-vscode-0.2.5",
@@ -846,7 +846,7 @@
     "version": "3.5.4",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/cweijan.vscode-office-3.5.4",
+      "path": "%USERPROFILE%/.vscode/extensions/cweijan.vscode-office-3.5.4",
       "scheme": "file"
     },
     "relativeLocation": "cweijan.vscode-office-3.5.4",
@@ -873,7 +873,7 @@
     "version": "0.29.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/redhat.vscode-xml-0.29.0-win32-x64",
+      "path": "%USERPROFILE%/.vscode/extensions/redhat.vscode-xml-0.29.0-win32-x64",
       "scheme": "file"
     },
     "relativeLocation": "redhat.vscode-xml-0.29.0-win32-x64",
@@ -900,7 +900,7 @@
     "version": "8.3.1",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/oderwat.indent-rainbow-8.3.1",
+      "path": "%USERPROFILE%/.vscode/extensions/oderwat.indent-rainbow-8.3.1",
       "scheme": "file"
     },
     "relativeLocation": "oderwat.indent-rainbow-8.3.1",
@@ -927,7 +927,7 @@
     "version": "0.5.4",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/hzgood.dart-data-class-generator-0.5.4",
+      "path": "%USERPROFILE%/.vscode/extensions/hzgood.dart-data-class-generator-0.5.4",
       "scheme": "file"
     },
     "relativeLocation": "hzgood.dart-data-class-generator-0.5.4",
@@ -954,7 +954,7 @@
     "version": "12.15.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/vscode-icons-team.vscode-icons-12.15.0",
+      "path": "%USERPROFILE%/.vscode/extensions/vscode-icons-team.vscode-icons-12.15.0",
       "scheme": "file"
     },
     "relativeLocation": "vscode-icons-team.vscode-icons-12.15.0",
@@ -981,7 +981,7 @@
     "version": "1.8.7",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/rodrigorahman.flutter-dart-utils-1.8.7",
+      "path": "%USERPROFILE%/.vscode/extensions/rodrigorahman.flutter-dart-utils-1.8.7",
       "scheme": "file"
     },
     "relativeLocation": "rodrigorahman.flutter-dart-utils-1.8.7",
@@ -1008,7 +1008,7 @@
     "version": "0.16.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/ms-vscode.vscode-speech-0.16.0-win32-x64",
+      "path": "%USERPROFILE%/.vscode/extensions/ms-vscode.vscode-speech-0.16.0-win32-x64",
       "scheme": "file"
     },
     "relativeLocation": "ms-vscode.vscode-speech-0.16.0-win32-x64",
@@ -1035,7 +1035,7 @@
     "version": "1.9.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/hediet.vscode-drawio-1.9.0",
+      "path": "%USERPROFILE%/.vscode/extensions/hediet.vscode-drawio-1.9.0",
       "scheme": "file"
     },
     "relativeLocation": "hediet.vscode-drawio-1.9.0",
@@ -1062,7 +1062,7 @@
     "version": "5.7.9",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/ritwickdey.liveserver-5.7.9",
+      "path": "%USERPROFILE%/.vscode/extensions/ritwickdey.liveserver-5.7.9",
       "scheme": "file"
     },
     "relativeLocation": "ritwickdey.liveserver-5.7.9",
@@ -1089,7 +1089,7 @@
     "version": "2.8.51",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/blackboxapp.blackbox-2.8.51",
+      "path": "%USERPROFILE%/.vscode/extensions/blackboxapp.blackbox-2.8.51",
       "scheme": "file"
     },
     "relativeLocation": "blackboxapp.blackbox-2.8.51",
@@ -1116,7 +1116,7 @@
     "version": "2.38.6",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/rangav.vscode-thunder-client-2.38.6",
+      "path": "%USERPROFILE%/.vscode/extensions/rangav.vscode-thunder-client-2.38.6",
       "scheme": "file"
     },
     "relativeLocation": "rangav.vscode-thunder-client-2.38.6",
@@ -1146,7 +1146,7 @@
     "version": "3.126.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/dart-code.flutter-3.126.0",
+      "path": "%USERPROFILE%/.vscode/extensions/dart-code.flutter-3.126.0",
       "scheme": "file"
     },
     "relativeLocation": "dart-code.flutter-3.126.0",
@@ -1176,7 +1176,7 @@
     "version": "3.126.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/dart-code.dart-code-3.126.0",
+      "path": "%USERPROFILE%/.vscode/extensions/dart-code.dart-code-3.126.0",
       "scheme": "file"
     },
     "relativeLocation": "dart-code.dart-code-3.126.0",
@@ -1205,9 +1205,9 @@
     "version": "2.64.0",
     "location": {
       "$mid": 1,
-      "fsPath": "c:\\Users\\<USUARIO>\\.vscode\\extensions\\google.geminicodeassist-2.64.0",
+      "fsPath": "%USERPROFILE%\\.vscode\\extensions\\google.geminicodeassist-2.64.0",
       "_sep": 1,
-      "path": "/c:/Users/<USUARIO>/.vscode/extensions/google.geminicodeassist-2.64.0",
+      "path": "%USERPROFILE%/.vscode/extensions/google.geminicodeassist-2.64.0",
       "scheme": "file"
     },
     "relativeLocation": "google.geminicodeassist-2.64.0",
