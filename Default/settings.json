@@ -19,12 +19,12 @@
         "*.jpeg": "luna.editor",
         "*.pdf": "pdf.preview",
         "*.yaml": "default",
-        "*.xaml": "default"
+        "*.xaml": "default",
+        "*.xlsx": "cweijan.officeViewer"
     },
     "git.autofetch": true,
     "powerquery.sdk.tools.location": "c:\\Users\\<USUARIO>\\.vscode\\extensions\\powerquery.vscode-powerquery-sdk-0.6.3-win32-x64\\.nuget\\Microsoft.PowerQuery.SdkTools.2.146.1\\tools",
     "powerquery.sdk.tools.version": "2.146.1",
-    "workbench.colorTheme": "Omni",
     "git.ignoreMissingGitWarning": true,
     "files.associations": {
         "*.py": "jupyter"
@@ -46,11 +46,10 @@
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
     },
-    "workbench.iconTheme": "vscode-icons",
     "RainbowBrackets.depreciation-notice": false,
     // Cor do comentário normal
     "editor.tokenColorCustomizations": {
-        "comments": "#799906"        
+        "comments": "#799906",        
     },
     "workbench.colorCustomizations": {
       // Icone do perfil
@@ -99,5 +98,14 @@
       "breadcrumb.foreground": "#ffffff",
       "statusBar.background": "#070707a2",
       "titleBar.activeBackground": "#070707"
-    }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.newWindowProfile": null,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Omni",
+    "http.systemCertificatesNode": true,
+    "editor.hover.enabled": "off",
+    "editor.experimental.useGpu": false,
+    "remoteHub.commitDirectlyWarning": "off"
+
 }
