@@ -71,6 +71,16 @@ function take {
   Set-Location "$args"
 }
 # Minhas funcoes
+
+function qwen {
+  "
+  Para funcionar, é necessário ter o Foundry instalado: https://foundry.ai/docs/installation
+  Usar comando no powershell winget install Microsoft.FoundryLocal
+  depois foundry model run qwen2.5-0.5b
+  "
+  foundry model run qwen2.5-0.5b
+}
+
 function meuip(){  
   Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
 }
