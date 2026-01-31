@@ -144,11 +144,12 @@
     "terminal.integrated.fontLigatures.enabled": true,
     "editor.fontLigatures": true,
     "editor.fontFamily": "Fira Code",
-    "terminal.integrated.fontFamily": "monospace",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    "terminal.integrated.fontSize": 13,
     "editor.fontSize": 13.5,
     "editor.fontWeight": "normal",
     "python.analysis.typeCheckingMode": "basic",
     "notebook.output.wordWrap": true,
+    "python.defaultInterpreterPath": "c:\\Users\\julianobs\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
     "workbench.colorTheme": "Omni"
   }

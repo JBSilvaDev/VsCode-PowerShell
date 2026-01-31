@@ -18,7 +18,8 @@ foreach ($module in $modules) {
 Import-Module PSReadLine
 
 # Configuração tema
-$tema = "material.omp.json"
+$env:VIRTUAL_ENV_DISABLE_PROMPT = 1
+$tema = "space.omp.json"
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/$tema" | Invoke-Expression
 
 # Uses tab for autocompletion
@@ -70,7 +71,6 @@ function take {
   New-Item -ItemType directory $args
   Set-Location "$args"
 }
-# Minhas funcoes
 
 function qwen {
   "
@@ -80,7 +80,7 @@ function qwen {
   "
   foundry model run qwen2.5-0.5b
 }
-
+# Minhas funcoes
 function meuip(){  
   Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
 }
