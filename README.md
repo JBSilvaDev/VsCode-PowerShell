@@ -55,7 +55,7 @@ Este guia auxilia na instalação das dependências para o funcionamento do perf
 
 - **PowerShell 7+:** Certifique-se de ter uma versão atualizada.
   ```powershell
-  winget search --id Microsoft.PowerShell
+  winget install --id Microsoft.PowerShell
   ```
 
 ### 1. Instalar Oh My Posh
