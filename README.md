@@ -70,6 +70,10 @@ Gerenciador de temas para o prompt de comando.
   ```powershell
   winget install JanDeDobbeleer.OhMyPosh -s winget
   ```
+   ou
+  ```powershell
+  store install oh-my-posh
+  ```
   *Reinicie o terminal após a instalação.*
 
 ### 2. Instalar Nerd Fonts
@@ -135,6 +139,7 @@ Use o comando `Get-PoshThemes` para ver a lista completa de temas disponíveis.
 | `easy-term`| ![](image/README/1767806619109.png)      |
 | `json`     | ![](image/README/1767806536749.png)            |
 
+Para mais temas, visite o repositório oficial do Oh My Posh: [Oh My Posh Themes](https://ohmypo.sh/docs/themes).
 ---
 
 ## ✅ Arquivo de Perfil de Exemplo
