@@ -57,6 +57,10 @@ Este guia auxilia na instalação das dependências para o funcionamento do perf
   ```powershell
   winget install --id Microsoft.PowerShell
   ```
+  ou
+  ```powershell
+  store install powershell
+  ```
 
 ### 1. Instalar Oh My Posh
 
@@ -135,7 +139,7 @@ Use o comando `Get-PoshThemes` para ver a lista completa de temas disponíveis.
 
 ## ✅ Arquivo de Perfil de Exemplo
 
-Um arquivo `VsCode.ps1` com todas essas configurações prontas para uso está disponível [aqui](./Arquivo%20PS1/VsCode.ps1). Você pode usá-lo como base para o seu perfil.
+Um arquivo `VsCode.ps1` com todas essas configurações prontas para uso está disponível [aqui](./Arquivo%20PS1/Microsoft.PowerShell_profile.ps1). Você pode usá-lo como base para o seu perfil.
 
 ## Meus Perfis DEV
 - [Default](./Default/)
