@@ -2,6 +2,26 @@
 
 Este repositório contém configurações, temas e scripts para otimizar o ambiente de desenvolvimento com Visual Studio Code e PowerShell.
 
+## 📋 Requisitos
+
+- **VSCode** (Visual Studio Code)
+- **PowerShell 7+** (Windows)
+- **Git** (opcional, para controle de versão)
+
+## 📑 Sumário
+
+- [⚙️ Funções e Atalhos para o Shell](#-funções-e-atalhos-para-o-shell)
+- [🚀 Configuração do Ambiente PowerShell](#-configuração-do-ambiente-powershell-no-windows)
+- [🎨 Temas para o PowerShell](#-temas-para-o-powershell-oh-my-posh)
+- [📁 Estrutura de Perfis VSCode](#-estrutura-de-perfis-vscode)
+- [✅ Arquivo de Perfil de Exemplo](#-arquivo-de-perfil-de-exemplo)
+- [📂 Meus Perfis DEV](#-meus-perfis-dev)
+- [🖱️ Correção: Ponteiro do Mouse](#-correção-ponteiro-do-mouse-desaparecendo-no-vscode)
+- [📌 Dicas Adicionais](#-dicas-adicionais)
+- [🔗 Links Úteis](#-links-úteis)
+
+---
+
 ## ⚙️ Funções e Atalhos para o Shell
 
 Crie atalhos (funções ou aliases) para comandos longos e repetitivos.
@@ -91,32 +111,13 @@ Para que os ícones e temas funcionem corretamente, é essencial ter uma "Nerd F
 
 Execute os comandos abaixo para adicionar funcionalidades ao seu terminal:
 
->Integração com Git
-```powershell
-Install-Module posh-git -Scope CurrentUser -Force
-```
-
->Ícones para arquivos e pastas (ls/dir)
-```powershell
-Install-Module Terminal-Icons -Scope CurrentUser -Force
-```
-
->Autocompletar para comandos Docker
-```powershell
-Install-Module DockerCompletion -Scope CurrentUser -Force
-```
-
-
->Modulo da Microsoft para gerenciar pacotes
-```powershell
-Install-Module -Name Microsoft.WinGet.Client -Scope CurrentUser -Force
-```
-
->Cores para o comando Get-ChildItem (ls/dir) <br>
->Não necessario se tiver usando os outros modulos de icones e cores acima
-```powershell
-Install-Module Get-ChildItemColor -Scope CurrentUser -Force
-```
+| Módulo | Descrição | Comando |
+|--------|-----------|---------|
+| **posh-git** | Integração com Git | `Install-Module posh-git -Scope CurrentUser -Force` |
+| **Terminal-Icons** | Ícones para arquivos e pastas (ls/dir) | `Install-Module Terminal-Icons -Scope CurrentUser -Force` |
+| **DockerCompletion** | Autocompletar para comandos Docker | `Install-Module DockerCompletion -Scope CurrentUser -Force` |
+| **Microsoft.WinGet.Client** | Módulo da Microsoft para gerenciar pacotes | `Install-Module -Name Microsoft.WinGet.Client -Scope CurrentUser -Force` |
+| **Get-ChildItemColor** | Cores para o comando Get-ChildItem (opcional se já usar Terminal-Icons) | `Install-Module Get-ChildItemColor -Scope CurrentUser -Force` |
 
 ---
 
@@ -125,7 +126,10 @@ Install-Module Get-ChildItemColor -Scope CurrentUser -Force
 Para alterar o tema, modifique a seguinte linha no seu perfil (`$PROFILE`):
 
 ```powershell
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/<nome-do-tema>.omp.json" | Invoke-Expression
+$env:VIRTUAL_ENV_DISABLE_PROMPT = 1
+$tema = "<nome-do-tema>.omp.json"
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/$tema" | Invoke-Expression
+
 ```
 
 Use o comando `Get-PoshThemes` para ver a lista completa de temas disponíveis.
@@ -139,19 +143,119 @@ Use o comando `Get-PoshThemes` para ver a lista completa de temas disponíveis.
 | `easy-term`| ![](image/README/1767806619109.png)      |
 | `json`     | ![](image/README/1767806536749.png)            |
 
-Para mais temas, visite o repositório oficial do Oh My Posh: [Oh My Posh Themes](https://ohmypo.sh/docs/themes).
+Para mais temas, visite o repositório oficial do Oh My Posh: [Oh My Posh Themes](https://ohmyposh.dev/docs/themes).
+
+---
+
+## 📁 Estrutura de Perfis VSCode
+
+Este repositório inclui perfis de configuração para o VSCode organizados por tipo de desenvolvimento. Cada perfil contém:
+
+| Arquivo | Descrição |
+|---------|-----------|
+| **settings.json** | Configurações específicas do editor (fonte, tema, formatação, etc.) |
+| **extensions.json** | Lista de extensões recomendadas para o perfil |
+
+### Como Usar os Perfis
+
+1. Abra o VSCode
+2. Pressione `Ctrl + Shift + P`
+3. Digite `Preferences: Open Workspace Settings (JSON)`
+4. Copie as configurações desejadas do perfil escolhido para o seu `settings.json`
+
+Para instalar as extensões recomendadas:
+1. Abra o arquivo `extensions.json` do perfil desejado
+2. Instale as extensões listadas manualmente ou use o comando:
+   ```powershell
+   code --install-extension <id-da-extensao>
+   ```
 ---
 
 ## ✅ Arquivo de Perfil de Exemplo
 
-Um arquivo `VsCode.ps1` com todas essas configurações prontas para uso está disponível [aqui](./Arquivo%20PS1/Microsoft.PowerShell_profile.ps1). Você pode usá-lo como base para o seu perfil.
+Um arquivo `Microsoft.PowerShell_profile.ps1` com todas essas configurações prontas para uso está disponível [aqui](./Arquivo%20PS1/Microsoft.PowerShell_profile.ps1). Você pode usá-lo como base para o seu perfil.
 
-## Meus Perfis DEV
+## 📂 Meus Perfis DEV
+
 - [Default](./Default/)
   - Perfil padrão com configurações básicas.
-- [Flutter](./Flutter/)
+- [Flutter](./Flutter-Profile/)
   - Perfil otimizado para desenvolvimento Flutter.
-- [Python](./Python/)
+- [Python](./Python-Profile/)
   - Perfil otimizado para desenvolvimento Python.
-- [HTML-CSS-JS](./HTML-CSS-JS/)
+- [HTML](./HTML-Profile/)
   - Perfil otimizado para desenvolvimento web front-end.
+
+---
+
+## 🖱️ Correção: Ponteiro do Mouse Desaparecendo no VSCode
+
+Caso o ponteiro do mouse desapareça ao digitar no editor ou terminal do VSCode, siga os passos abaixo para desabilitar a aceleração de hardware:
+
+### Solução
+
+1. **Abra a Paleta de Comandos:**
+   - Pressione `Ctrl + Shift + P`
+
+2. **Acesse as Configurações de Runtime:**
+   - Digite e selecione: `Preferences: Configure Runtime Arguments`
+
+3. **Edite o Arquivo `argv.json`:**
+   - Adicione a seguinte linha de configuração:
+   ```json
+   "disable-hardware-acceleration": true
+   ```
+   
+   **Exemplo de como deve ficar o arquivo:**
+   ```json
+   {
+       "disable-hardware-acceleration": true
+   }
+   ```
+
+4. **Reinicie o VSCode:**
+   - Feche completamente o VSCode e abra novamente para que a alteração tenha efeito.
+
+> **Nota:** Esta é uma solução paliativa. A desabilitação da aceleração de hardware pode impactar levemente a performance de renderização, mas resolve o problema do cursor invisível na maioria dos casos.
+
+---
+
+## 📌 Dicas Adicionais
+
+### Recarregar o Perfil do PowerShell
+
+Após fazer alterações no seu perfil, recarregue-o sem precisar reiniciar o terminal:
+
+```powershell
+. $PROFILE
+```
+
+### Verificar Versão do PowerShell
+
+```powershell
+$PSVersionTable.PSVersion
+```
+
+### Localizar o Arquivo de Perfil
+
+```powershell
+$PROFILE
+```
+
+### Listar Temas Disponíveis do Oh My Posh
+
+```powershell
+Get-PoshThemes
+```
+
+---
+
+## 🔗 Links Úteis
+
+| Recurso | Link |
+|---------|------|
+| Oh My Posh | [ohmyposh.dev](https://ohmyposh.dev) |
+| Nerd Fonts | [nerdfonts.com](https://www.nerdfonts.com) |
+| VSCode | [code.visualstudio.com](https://code.visualstudio.com) |
+| PowerShell | [microsoft.com/powershell](https://microsoft.com/powershell) |
+| Winget | [learn.microsoft.com/winget](https://learn.microsoft.com/windows/package-manager/) |
