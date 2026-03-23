@@ -113,11 +113,11 @@ Execute os comandos abaixo para adicionar funcionalidades ao seu terminal:
 
 | Módulo | Descrição | Comando |
 |--------|-----------|---------|
-| **posh-git** | Integração com Git | `Install-Module posh-git -Scope CurrentUser -Force` |
-| **Terminal-Icons** | Ícones para arquivos e pastas (ls/dir) | `Install-Module Terminal-Icons -Scope CurrentUser -Force` |
-| **DockerCompletion** | Autocompletar para comandos Docker | `Install-Module DockerCompletion -Scope CurrentUser -Force` |
-| **Microsoft.WinGet.Client** | Módulo da Microsoft para gerenciar pacotes | `Install-Module -Name Microsoft.WinGet.Client -Scope CurrentUser -Force` |
-| **Get-ChildItemColor** | Cores para o comando Get-ChildItem (opcional se já usar Terminal-Icons) | `Install-Module Get-ChildItemColor -Scope CurrentUser -Force` |
+| **posh-git** | Integração com Git | ```Install-Module posh-git -Scope CurrentUser -Force```  |
+| **Terminal-Icons** | Ícones para arquivos e pastas (ls/dir) | ```Install-Module Terminal-Icons -Scope CurrentUser -Force``` |
+| **DockerCompletion** | Autocompletar para comandos Docker | ```Install-Module DockerCompletion -Scope CurrentUser -Force``` |
+| **Microsoft.WinGet.Client** | Módulo da Microsoft para gerenciar pacotes | ```Install-Module -Name Microsoft.WinGet.Client -Scope CurrentUser -Force``` |
+| **Get-ChildItemColor** | Cores para o comando Get-ChildItem (opcional se já usar Terminal-Icons) | ```Install-Module Get-ChildItemColor -Scope CurrentUser -Force``` |
 
 ---
 

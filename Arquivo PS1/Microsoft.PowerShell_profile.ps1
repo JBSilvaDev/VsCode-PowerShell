@@ -12,6 +12,10 @@ foreach ($module in $modules) {
         } else {
           
               Write-Host "Módulo '$module' não instalado (veja README)." -ForegroundColor DarkGray
+              Write-Host "Instalando..." -ForegroundColor DarkGray
+              Install-Module $module -Scope CurrentUser -Force
+              Import-Module $module
+              Write-Host "Instalado!" -ForegroundColor DarkGray
         }
     }
 }
@@ -19,7 +23,7 @@ Import-Module PSReadLine
 
 # Configuração tema
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
-$tema = "space.omp.json"
+$tema = "spaceship.omp.json"
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/$tema" | Invoke-Expression
 
 # Uses tab for autocompletion
@@ -72,15 +76,8 @@ function take {
   Set-Location "$args"
 }
 
-function qwen {
-  "
-  Para funcionar, é necessário ter o Foundry instalado: https://foundry.ai/docs/installation
-  Usar comando no powershell winget install Microsoft.FoundryLocal
-  depois foundry model run qwen2.5-0.5b
-  "
-  foundry model run qwen2.5-0.5b
-}
 # Minhas funcoes
+
 function meuip(){  
   Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
 }
@@ -91,6 +88,7 @@ function new-venv(){
   "
   python -m venv venv
   ative-venv
+  kernel-jupter
 }
 function ative-venv(){  
   "
@@ -100,6 +98,13 @@ function ative-venv(){
   venv/Scripts/activate
   att-pip
   cls
+}
+function kernel-jupter(){  
+  "
+  Intalando ipykernel
+  python -m pip install ipykernel
+  "
+  pip install ipykernel
 }
 function desative-venv() {
   "
@@ -171,3 +176,8 @@ function django-tables(){
   "Executando: python manage.py migrate"
   python manage.py migrate
 }
+
+#f45873b3-b655-43a6-b217-97c00aa0db58 PowerToys CommandNotFound module
+
+Import-Module -Name Microsoft.WinGet.CommandNotFound
+#f45873b3-b655-43a6-b217-97c00aa0db58
