@@ -1,7 +1,7 @@
 $MaximumHistoryCount = 2000
 
 # Importação segura: carrega apenas se o módulo estiver instalado
-$modules = @("posh-git", "Terminal-Icons", "DockerCompletion","Microsoft.WinGet.Client")
+$modules = @("posh-git", "Terminal-Icons", "DockerCompletion","Microsoft.WinGet.Client", "PSReadLine")
 foreach ($module in $modules) {
     if (Get-Module -ListAvailable -Name $module) {       
       Import-Module $module
@@ -19,7 +19,6 @@ foreach ($module in $modules) {
         }
     }
 }
-Import-Module PSReadLine
 
 # Configuração tema
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
